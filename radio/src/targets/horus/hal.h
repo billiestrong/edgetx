@@ -779,6 +779,8 @@
 #define DMA_SCREEN_IRQ_PRIO             6
 #endif
 
+#define LCD_VERTICAL_INVERT
+
 // Backlight
 #if defined(PCBX12S)
   #define BACKLIGHT_RCC_AHB1Periph             RCC_AHB1Periph_GPIOA
